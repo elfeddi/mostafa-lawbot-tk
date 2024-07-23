@@ -1,6 +1,13 @@
 Etapes pour lancer l'app :
 
 -Entrez les clés OPEN AI et VOYAGE AI dans les fichiers .env et /flask2/app/utils.y
+Créer une fichier .env
+Mettez les Key-values suivantes:
+
+VOYAGEAI.API_KEY=
+OPENAI_API_KEY=
+LANGCHAIN_TRACING_V2=true
+SQLITE_DATABASE="sqlite:///DXC_RAG.db"
 
 1) créer un env virtuel grâce a la commande :
 py -m venv venv
