@@ -5,8 +5,11 @@ Créer une fichier .env
 Mettez les Key-values suivantes:
 
 VOYAGEAI.API_KEY=
+
 OPENAI_API_KEY=
+
 LANGCHAIN_TRACING_V2=true
+
 SQLITE_DATABASE="sqlite:///DXC_RAG.db"
 
 1) créer un env virtuel grâce a la commande :
